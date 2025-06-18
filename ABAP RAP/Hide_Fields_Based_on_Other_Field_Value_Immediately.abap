@@ -35,7 +35,7 @@ annotate view ZC_SB_EMP_DATA with
   MobileNumber;
 }
 
-"Step 4: Add a Determination in the Root BDEF to Recalculate the Boolean Field on Change, Also declare a side effect to notify       the UI of the dependent field update.
+"Step 4: Add a Determination in the Root BDEF to Recalculate the Boolean Field on Change, Also declare a side effect to notify the UI of the dependent field update.
 
 define behavior for ZR_SB_EMP_DATA alias EmployeeData
 ...

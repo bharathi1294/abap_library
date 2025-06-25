@@ -17,7 +17,7 @@ For example, here I’ve grouped two actions (acceptTravel and rejectTravel) und
  `{ 𝘁𝘆𝗽𝗲: #𝗙𝗢𝗥_𝗔𝗖𝗧𝗜𝗢𝗡, 𝗱𝗮𝘁𝗮𝗔𝗰𝘁𝗶𝗼𝗻: '𝗮𝗰𝗰𝗲𝗽𝘁𝗧𝗿𝗮𝘃𝗲𝗹', 𝗹𝗮𝗯𝗲𝗹: '𝗔𝗰𝗰𝗲𝗽𝘁 ``𝗧𝗿𝗮𝘃𝗲𝗹', 𝗮𝗰𝘁𝗶𝗼𝗻𝗚𝗿𝗼𝘂𝗽𝗜𝗱: '𝗺𝗲𝗻𝘂-𝗖𝗵𝗮𝗻𝗴𝗲𝗦𝘁𝗮𝘁𝘂𝘀' },`\
  `{ 𝘁𝘆𝗽𝗲: #𝗙𝗢𝗥_𝗔𝗖𝗧𝗜𝗢𝗡, 𝗱𝗮𝘁𝗮𝗔𝗰𝘁𝗶𝗼𝗻: '𝗿𝗲𝗷𝗲𝗰𝘁𝗧𝗿𝗮𝘃𝗲𝗹', 𝗹𝗮𝗯𝗲𝗹: '𝗥𝗲𝗷𝗲𝗰𝘁 ``𝗧𝗿𝗮𝘃𝗲𝗹', 𝗮𝗰𝘁𝗶𝗼𝗻𝗚𝗿𝗼𝘂𝗽𝗜𝗱: '𝗺𝗲𝗻𝘂-𝗖𝗵𝗮𝗻𝗴𝗲𝗦𝘁𝗮𝘁𝘂𝘀' }`\
  `]`\
-`}`\
+`}`
 
 Note: I tried this in SAP BTP, ABAP Environment, and it works great! I believe this should also be available in SAP S/4HANA Public Cloud Latest version. For Private Cloud availability, I’ll check and share more once I have the details.
 

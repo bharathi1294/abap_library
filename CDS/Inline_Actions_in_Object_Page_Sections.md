@@ -13,7 +13,7 @@ Use Case Example: A colleague recently had a requirement to add a section-specif
  `position: 10 ,`\
  `type: #FIELDGROUP_REFERENCE,`\
  `targetQualifier: 'generalInfo'`\
- `} ]`\
+ `} ]`
 
  `@UI.fieldGroup: [{`\
  `qualifier: 'generalInfo',`\

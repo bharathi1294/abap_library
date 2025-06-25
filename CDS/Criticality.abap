@@ -27,3 +27,5 @@ annotate view ZC_ROOT_ENTITY with {
   @UI: { lineItem: [{position: 10, importance: #HIGH, criticality: 'CriticalityCode', criticalityRepresentation: #WITH_ICON }] }
   OverallStatus;
 }
+
+"Step 4: That's it. see the result - src/images/Criticality_in_CDS.png

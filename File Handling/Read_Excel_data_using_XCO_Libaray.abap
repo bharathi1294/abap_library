@@ -12,7 +12,6 @@ AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_file.
                                                         user_action = lv_action ).
 
   p_file = |{ lt_files[ 1 ]-filename }|.
-
 START-OF-SELECTION.
 * Excel upload
   cl_gui_frontend_services=>gui_upload( EXPORTING filename   = CONV #( p_file )
@@ -64,7 +63,6 @@ START-OF-SELECTION.
            mobile_number TYPE string,
            date_of_birth TYPE string,
          END OF ty_employee.
-
   DATA: lt_employees TYPE TABLE OF ty_employee WITH EMPTY KEY.
 
 * Fill the internal table by using the selection patterns

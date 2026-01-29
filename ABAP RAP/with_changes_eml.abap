@@ -12,4 +12,5 @@
     RESULT DATA(lt_result2).
 
 "Reference - https://github.com/SAP-samples/abap-cheat-sheets/blob/main/08_EML_ABAP_for_RAP.md#accessing-change-information
+"https://bharathi-sakthivel.blogspot.com/2026/01/WITH-CHANGES-EML-RAP.html
 "Result - src/images/with_changes.png

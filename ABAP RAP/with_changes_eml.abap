@@ -12,4 +12,4 @@
     RESULT DATA(lt_result2).
 
 "Reference - https://github.com/SAP-samples/abap-cheat-sheets/blob/main/08_EML_ABAP_for_RAP.md#accessing-change-information
-![Decision Note](../src/images/)
+![Decision Note](../src/images/with_changes.png)

@@ -92,9 +92,10 @@ var oContexts = await oView.getModel().bindList(
     { $select: aSelectFields.join(",") }
 ).requestContexts(0, 99999999);
 
-oTable.getModel("tableModel").setProperty("/items",
-    oContexts.map(function (c) { return c.getObject(); })
-);
+// Step 4 — create and set model directly after call returns
+oView.setModel(new JSONModel({
+    items: oContexts.map(function (c) { return c.getObject(); })
+}), "tableModel");
 ```
 
 ---

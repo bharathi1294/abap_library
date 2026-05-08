@@ -63,7 +63,7 @@ var aColumns = aLineItems.map(function (oItem) {
     return {
         field:   sField,
         label:   oLineItem.Label
-                 ||oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.Common.v1.Label")
+                 || oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.Common.v1.Label")
                  || sField,
         visible: !oItem["@com.sap.vocabularies.UI.v1.Hidden"] && !oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.UI.v1.Hidden")
     };

@@ -25,11 +25,11 @@ define custom entity ZCustomEntity
     @EndUserText.label: 'Customer'
     key customer : char40,
     
-    @UI.lineItem: [{ position: 20, label: 'Order ID' }]
+    @UI.lineItem: [{ position: 20, label: 'Order ID', hidden: true }]
     @EndUserText.label: 'Order ID'
     order_id : char10,
     
-    @UI.lineItem: [{ position: 30, hidden: true }]
+    @UI.Hidden: true
     @EndUserText.label: 'Internal Key'
     internal_key : char120
 }
@@ -62,11 +62,8 @@ var aColumns = aLineItems.map(function (oItem) {
     var sField = oItem.Value.$Path;
     return {
         field:   sField,
-        label:   oItem.Label
-                 || oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.Common.v1.Label")
-                 || sField,
-        visible: !oItem["@com.sap.vocabularies.UI.v1.Hidden"]
-                 && !oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.UI.v1.Hidden")
+        label:   oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.Common.v1.Label") || sField,
+        visible: !oItem["@com.sap.vocabularies.UI.v1.Hidden"] && !oMeta.getObject(sEntityPath + sField + "@com.sap.vocabularies.UI.v1.Hidden")
     };
 });
 

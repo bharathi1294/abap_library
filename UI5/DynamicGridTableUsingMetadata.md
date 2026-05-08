@@ -87,7 +87,7 @@ var aSelectFields = aColumns
     .map(function (c) { return c.field; });
 
 var oContexts = await oView.getModel().bindList(
-    "/MyEntity(P_CustomerID='" + sCustomerId + "',P_Status='" + sStatus + "')/Set",
+    "/ZCustomEntity(P_CustomerID='" + sCustomerId + "',P_Status='" + sStatus + "')/Set",
     undefined, undefined, undefined,
     { $select: aSelectFields.join(",") }
 ).requestContexts(0, 99999999);

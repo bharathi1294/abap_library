@@ -1,3 +1,5 @@
+"𝗙𝗲𝘁𝗰𝗵𝗶𝗻𝗴 𝗨𝘀𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝘆 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗶𝗻 𝗦𝗔𝗣 𝗦/𝟰𝗛𝗔𝗡𝗔
+
 CLASS lcl_rsm DEFINITION CREATE PUBLIC.
   PUBLIC SECTION.
     CLASS-METHODS get_users_from_rsm

@@ -1,5 +1,6 @@
 # Using Radio Buttons Instead of Dropdowns in RAP
 
+Add the following annotations in your project's webapp/annotations/annotation.xml file.
 ```xml
 <Annotations Target="SAP__self.RootType/CriticalityCode">
     <Annotation Term="Common.ValueListWithFixedValues" Bool="true">

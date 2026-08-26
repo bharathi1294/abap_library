@@ -31,7 +31,8 @@ define behavior for ZC_Root alias Root
 ```
 
 ### Child Metadata Extensions
-Although the action is defined on the Root, we can expose it in the Child table toolbar using the qualified action name.
+Although the action is defined on the **Root**, we can display it in the **Child table toolbar** by referencing the action using its **qualified action name** (`ProjectionEntity.ActionName`).
+
 ```abap
 annotate view ZC_CHILD with {
 ...
@@ -64,7 +65,7 @@ METHOD createItemFromRoot.
           %is_draft = key-%is_draft
           ChildDate = cl_abap_context_info=>get_system_date( )
           ChildName = |Created From Root_{ i }|
-           %control = VALUE #(
+          %control = VALUE #(
               ChildDate = if_abap_behv=>mk-on
               ChildName = if_abap_behv=>mk-on )
         )

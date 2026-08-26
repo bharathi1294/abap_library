@@ -1,4 +1,7 @@
 # Action Overloading in SAP ABAP RAP
+Action Overloading allows you to add an action defined on one entity to the object page list table of another entity.
+
+In this example, the action is defined on the Root entity, but the action button is displayed in the Child entity table on the Object Page. When the user clicks the button, the Root action is triggered, and it uses the Root instance context to create one or multiple Child records based on the required business logic.
 
 ### Behavior Definition
 Define the action as an instance action on the Root. The side effect ensures that the Child entity is refreshed after the action is executed.
